@@ -24,8 +24,9 @@ p {
   background-size: cover;
   background-position: center;
 }
-.carousel-caption {
-  padding-bottom: 150px;
+.first-slide .carousel-caption {
+  display: flex;
+  align-items: center;
 }
 .first-slide {
   background-image: url('../img/wood-2.jpg');
