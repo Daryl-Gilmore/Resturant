@@ -25,8 +25,7 @@ p {
   background-position: center;
 }
 .first-slide .carousel-caption {
-  display: flex;
-  align-items: center;
+  padding-bottom: 150px;
 }
 .first-slide {
   background-image: url('../img/wood-2.jpg');
@@ -40,13 +39,16 @@ p {
 .third-slide {
   background-image: url('../img/farm-2.jpg');
 }
+
 /* our story styles */
 #our_story {
   min-height: 600px;
   display: flex;
   align-items: center;
 }
-#our_story h1 {
+#our_story h1
+#review h1,
+#menu h1 {
 font-family: 'Lobster', cursive;
 color: #f8512f;
 font-size: 6em;
@@ -65,5 +67,72 @@ text-shadow: 1px 1px 5px #0a0a0a;
   font-weight: 700;
   font-size: 2em;
   margin-top: 0;
+}
 
+/* QUOTE */
+#review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#review p {
+  color: #FFF;
+  font-family: 'Railway',sans-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0A0A0A;
+}
+#review .container {
+ background-color: rgba(20, 20, 20, .6);
+ padding: 10px;
+ border-radius: 5px;
+}
+
+/* MENU */
+#menu {
+background-image: url('../img/black_linen.png');
+background-size: cover;
+min-height: 600px;
+}
+#menu h1 {
+color: #FFF;
+}
+
+#menu a {
+color: #F8512F;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
+#menu .tab-content .row {
+ margin: 0;
+}
+#menu .tab-content .food {
+ background-color: #FFF;
+ padding: 10px;
+}
+
+#contact {
+background-color: #F8512F;
+min-height: 600px;
+color: #FFF;
+ padding-bottom: 50px;
+}
+
+#contact h1 {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 4em;
+ margin-top: 50px;
+}
+#contact form {
+ background-color: #FF6633;
+ border: 1px solid #fff;
+ padding: 15px;
+}
+#contact .form-group span {
+color: #FF0D06;  
 }
